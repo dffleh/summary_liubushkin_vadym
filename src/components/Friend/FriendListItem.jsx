@@ -1,9 +1,11 @@
+import { Name, Status } from './FriendListItem.styles';
+
 export const FriendListItem = ({ friend: { avatar, name, isOnline } }) => {
   return (
     <>
-      <span className="status">{isOnline}</span>
+      <Status isOnline={isOnline}> </Status>
       <img className="avatar" src={avatar} alt={name} width="48" />
-      <p className="name">{name}</p>
+      <Name>{name}</Name>
     </>
   );
 };
