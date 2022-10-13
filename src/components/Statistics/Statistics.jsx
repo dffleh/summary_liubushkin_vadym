@@ -14,12 +14,3 @@ export const Statistics = ({ stats, title }) => {
     </section>
   );
 };
-
-// const StatisticsList = ({ statistics: { label, percentage } }) => {
-//   return (
-//     <>
-//       <span className="label">{label}</span>
-//       <span className="percentage">{percentage}</span>
-//     </>
-//   );
-// };
